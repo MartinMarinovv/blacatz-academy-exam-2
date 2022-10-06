@@ -13,7 +13,7 @@ function renderUsers(users) {
         html += '<tr>';
         html += `<td>${val.id}</td><td>${val.name}</td>`;
         html += `<td>${val.lastName}</td><td>${val.age}</td>`;
-        html += `<td>${val.salary}</td>`;
+        html += `<td>${val.salary}$</td>`;
         html += '</tr>';
     });
 
