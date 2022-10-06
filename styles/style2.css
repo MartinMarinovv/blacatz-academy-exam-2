@@ -1,0 +1,13 @@
+.item {
+    margin: 5px;
+}
+
+.txt {
+    vertical-align: middle;
+}
+
+@media (max-width:991px) {
+    .item input {
+        width: 70% !important;    
+    }
+}

@@ -1,0 +1,391 @@
+body {
+    overflow-x: hidden
+}
+
+:root {
+    --main-color1: #fda403;
+    --main-color2: #e8751a;
+    --main-color3: #8a1253;
+}
+    
+
+/* Title section */
+
+.nav-item {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+
+.nav-link:hover {
+    opacity: 0.7;
+}
+
+li i {
+    font-size: 2.4rem;
+
+}
+
+.logo {
+    width: 5rem;
+    margin-left: 5rem;
+}
+
+.font-weight-1 {
+    font-weight: 650;
+}
+
+.color1 {
+   color: var(--main-color1);
+}
+
+.color2 {
+    color: var(--main-color2);
+ }
+
+ .title-text {
+    margin-left: 5rem !important;
+    margin-top: 5rem;
+ }
+
+ .btn-custom {
+    border-radius: 35px !important;
+    color: var(--main-color2) !important;
+    border-color: var(--main-color2) !important;
+    font-size: 1.1rem !important;
+    padding: 0.5rem 1.8rem !important;
+}
+
+.btn-custom:hover {
+    opacity: 0.7;
+}
+
+.font-size-1 {
+    font-size: 4rem;
+}
+
+.font-size-2 {
+    font-size: 1.1rem;
+}
+/*
+.menu {
+    position: relative;
+}
+*/
+.nav-container {
+    position: absolute;
+    right: 3rem;
+}
+
+.search-box {
+    position: relative;
+    bottom: 2rem;
+}
+
+.width1 {
+    width: 37%;
+}
+
+.width2 {
+    width: 16%;
+}
+
+.shadow-lg input {
+    border: 1pxm solid silver !important;
+}
+
+.search-btn {
+    background-color: var(--main-color3) !important;
+    border: 0;
+    color: white !important;
+    border-radius: 0 !important;
+    padding: 0.4rem !important;
+    margin-top: 0 !important;    
+}
+
+.search-btn:hover {
+    opacity: 0.7;
+}
+
+
+/* Title section end */
+
+/* About us */
+h2 {
+    border-left: solid 0.5rem #fda403;
+    display: inline;
+    margin-bottom: 1rem !important;
+}
+
+/* About us end */
+
+/* items */
+.font-size-3 {
+    font-size: 0.8rem;
+}
+/* items end */
+
+/* price */
+.price-bg-1 {
+    background: var(--main-color1);
+}
+
+.price-bg-2 {
+    background: var(--main-color2);
+}
+
+.border-2 {
+    border-bottom: 0.2rem solid white;
+}
+
+.font-size-4 {
+    font-size: 0.9rem;
+}
+
+.btn-custom-2 {
+    border-radius: 35px !important;
+    background-color: var(--main-color1) !important;
+    color: white !important;
+    font-size: 1rem !important;
+    padding: 0.4rem 1.6rem !important;
+}
+
+.btn-custom-2:hover {
+    opacity: 0.7;
+}
+/* price end*/
+
+/* why us*/
+.h2-diff {
+    color: white;
+    border-color: white;
+}
+
+.btn-custom-3 {
+    border-radius: 35px !important;
+    background-color: white !important;
+    color: black !important;
+    font-size: 1rem !important;
+    padding: 0.4rem 1.6rem !important;
+}
+
+.btn-custom-3:hover {
+    opacity: 0.7;
+}
+
+.btn-custom-4 {
+    background-color: var(--main-color1) !important;
+    color: white !important;
+    font-size: 1.4rem !important;
+    display: inline-block !important;
+    border-radius: 50% !important;
+    padding-top: 1px !important;
+}
+
+.btn-custom-2:hover {
+    opacity: 0.7;
+}
+
+.img-shadow {
+    box-shadow: -35px -25px 0px -6px #fda403 !important;
+}
+
+.hr1 {
+    border: 3px solid black !important;
+    width: 40px;
+    opacity: 1;
+}
+  /* why us end*/
+
+  /* contact us*/
+  .btn-custom-5 {
+    border-radius: 35px !important;
+    background-color: var(--main-color3) !important;
+    color: white !important;
+    font-size: 1rem !important;
+    padding: 0.5rem 3.5rem !important;
+}
+
+.btn-custom-5:hover {
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.btn-custom-6 {
+    background-color: var(--main-color3) !important;
+    border-color: var(--main-color3) !important;
+    color: white !important;
+    font-size: 1rem !important;
+    padding: 0.4rem 1.6rem !important;
+}
+
+.btn-custom-6:hover {
+    opacity: 0.7;
+}
+
+.hr2 {
+    border: 1px solid white !important;
+    width: 65%;
+    opacity: 1;
+}
+
+.footer a:hover {
+    opacity: 0.7;
+}
+
+.container-footer div div a i:hover {
+    opacity: 0.7;
+}
+/* contact us end*/
+
+@media (max-width:1400px) {
+    .title-text-inner span {
+        font-size: 2.5rem !important;
+        margin: auto;
+    }
+
+    .title-text-inner div {
+        font-size: 0.8rem !important;
+        margin: auto;
+    }
+
+    .title-text-inner button {
+        margin: auto;
+    }
+    
+    .nav-item a {
+        font-size: 1.2rem;
+    }
+
+    .nav-item i {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:1200px) {
+    .search-box {
+        margin-top: 75px !important;
+    }
+
+}
+
+@media (max-width:991px) {
+    .nav-container {
+        position: unset;
+    }
+
+    .nav-item a {
+        color: var(--main-color2) !important;
+    }
+
+    .item-seek {
+        display: none;
+    }
+
+    .container-title {
+        background-color: #e9eefc;    
+    }
+
+    .menu img {
+        display: none;
+    }
+
+    .navbar-toggler i {
+        font-size: 3rem;
+        color: var(--main-color1);
+        padding: 0.5rem;
+
+    }
+
+    .title-text {
+        margin-left: 0rem !important;
+    }
+
+
+    .title-text-inner {
+        margin-top: 2rem;
+        text-align: center !important;
+    }
+
+    .title-text-inner span {
+        font-size: 2.5rem !important;
+    }
+
+    .title-text-inner button {
+        margin: auto;
+    }
+
+    .search-box {
+        margin-top: 75px !important;
+    }
+
+    .search-box .input1 {
+        width: 90%;
+    }
+
+    .container-items {
+        text-align: left;
+    }
+
+    .container-about-us {
+        padding: 0px !important;
+    }
+
+    .items-2 div {
+        text-align: left !important;
+    }
+
+    .price {
+        padding-top: 100px;
+    }
+
+    .img-price {
+        padding-top: 20px;
+    }
+
+    .container-why-us {
+        flex-direction: column;
+    }
+
+    .container-carousel {
+        text-align: left !important;
+        padding: 0px !important;
+    }
+
+    .container-carousel-2 {
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+
+    .reverse1 {
+        flex-direction: column-reverse !important;
+    }
+
+    .reverse1 div div div button {
+        margin-bottom: 20px;
+    }
+
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-footer div h5 {
+        text-align: center;
+    }
+
+    .container-footer div button {
+        width: 100% !important;  
+    }
+
+    .container-footer div input {
+        width: 100% !important;  
+    }
+
+    .container-footer div div a i {
+        margin: 6px !important;
+    }
+}
